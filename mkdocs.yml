@@ -65,6 +65,17 @@ markdown_extensions:
   - attr_list
 
 
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/tajudeenolarewajuabdulazeez/
+      name: linkedin
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/tabdulazeez
+      name: github
+
+
 nav:
   - Home: index.md 
   - Blog:
