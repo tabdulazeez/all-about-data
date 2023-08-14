@@ -1,7 +1,7 @@
-site_name: Data and Analytics 
+site_name: All About Data 
 
-repo_url: https://github.com/squidfunk/mkdocs-material
-repo_name: squidfunk/mkdocs-material
+repo_url: https://github.com/tabdulazeez/all-about-data
+repo_name: tabdulazeez/all-about-data
 edit_uri: edit/main/docs/
 
 theme:
@@ -18,11 +18,41 @@ theme:
     edit: material/pencil 
     view: material/eye
 
+  palette: 
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
 
 plugins:
 
   - git-revision-date-localized:
       enable_creation_date: true
+
+  - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: zoom
+       slide_effect: slide
+       width: 100%
+       height: auto
+       zoomable: true
+       draggable: true
+       skip_classes:
+         - custom-skip-class-name
+       auto_caption: false
+       caption_position: bottom
 
   - blog
 
@@ -30,7 +60,12 @@ plugins:
   - search:
       lang: en
 
+markdown_extensions:
+  - tables
+  - attr_list
+
 
 nav:
   - Home: index.md 
-  - Blog:  blog/index.md 
+  - Blog:
+     - Blog Home: blog/index.md 

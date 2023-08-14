@@ -1,17 +1,7 @@
-# Welcome to MkDocs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+![](https://media.licdn.com/dms/image/C5603AQHzeq9RbvNwcA/profile-displayphoto-shrink_400_400/0/1639168460972?e=1697673600&v=beta&t=dobekhibbcm3SLgXo5amsTTPu--Oxp_S_1Llzs8XHd8)          |   Tajudeen Abdulazeez is a versatile professional with a background in Geo-science and a Master's degree in Applied Data Science. he is a certified Google Professional Data Engineer with expertise in building end-to-end data science solutions. Currently a Senior Data Scientist Engineer at Bayer, He leverage skills in Airflow, Python, R, AWS, Docker, and Redshift to automate data pipelines. With a commitment to continuous learning, he bridge his analytical insights with data-driven acumen, embodying the synergy between evolving technology and diverse expertise.
+:-------------------------:|:-------------------------:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[More about me](aboutme.md){ .md-button }   [Professional Qualifications](#){ .md-button }    [Portfolio](#){ .md-button }
