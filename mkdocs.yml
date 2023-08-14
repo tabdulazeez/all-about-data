@@ -1,0 +1,36 @@
+site_name: Data and Analytics 
+
+repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: squidfunk/mkdocs-material
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - navigation.footer
+
+  icon:
+    repo: fontawesome/brands/git-alt 
+    edit: material/pencil 
+    view: material/eye
+
+
+plugins:
+
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+  - blog
+
+
+  - search:
+      lang: en
+
+
+nav:
+  - Home: index.md 
+  - Blog:  blog/index.md 
