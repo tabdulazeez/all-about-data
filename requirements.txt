@@ -45,3 +45,4 @@ urllib3==2.0.4
 watchdog==3.0.0
 wcmatch==8.4.1
 zipp==3.16.2
+mkdocs-material-9.2.0b0.tar
