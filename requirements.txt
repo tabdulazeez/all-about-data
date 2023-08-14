@@ -22,7 +22,6 @@ mkdocs==1.5.2
 mkdocs-awesome-pages-plugin==2.9.1
 mkdocs-blogging-plugin==2.2.11
 mkdocs-git-revision-date-localized-plugin==1.2.0
-mkdocs-material @ file:///Users/teejay/Downloads/mkdocs-material-9.2.0b0.tar#sha256=c79d7b5ff42b8f260e43a8161105d79bca3b908ca582d155355170f510b593f9
 mkdocs-material-extensions==1.1.1
 natsort==8.4.0
 packaging==23.1
