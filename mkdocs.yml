@@ -66,6 +66,7 @@ markdown_extensions:
 
 
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/tajudeenolarewajuabdulazeez/
@@ -74,6 +75,10 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/tabdulazeez
       name: github
+
+
+copyright: Copyright &copy; 2023  Tajudeen Abdulazeez 
+
 
 
 nav:
