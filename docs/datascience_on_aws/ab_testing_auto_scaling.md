@@ -1,13 +1,6 @@
----
-date: 2023-08-17
-authors: [tabdulazeez]
-description: >
-  A/B testing, traffic shifting and autoscaling
-categories:
-  - Machine Learning
----
 
-# A/B testing, traffic shifting and autoscaling
+
+## A/B testing, traffic shifting and autoscaling
 
 ### Introduction
 

@@ -83,5 +83,17 @@ copyright: Copyright &copy; 2023  Tajudeen Abdulazeez
 
 nav:
   - Home: index.md 
+  - Data Science on AWS: 
+    - Register, Analyze and Visualize Data: datascience_on_aws/viz_and_analyze_data.md
+    - Detect data bias with Amazon SageMaker Clarify: datascience_on_aws/detect_bias_amazon_sagemaker_clarify.md
+    - Train a model with Amazon SageMaker Autopilot: datascience_on_aws/sagemaker_autopilot.md
+    - Train a text classifier using Amazon SageMaker BlazingText built-in algorithm: datascience_on_aws/sagemaker_blazing_text_built_in_algos.md
+    - Feature transformation with Amazon SageMaker processing job and Feature Store: datascience_on_aws/sagemaker_feature_store.md
+    - Train a review classifier with BERT and Amazon SageMaker: datascience_on_aws/classifier_bert_amazon_sagemaker.md
+    - Optimize models using Automatic Model Tuning:  datascience_on_aws/automatic_model_tuning.md
+    - AB Testing and Auto Scaling:  datascience_on_aws/ab_testing_auto_scaling.md
+
+    
+    
   - Blog:
      - Blog Home: blog/index.md 

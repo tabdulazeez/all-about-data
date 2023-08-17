@@ -1,13 +1,6 @@
----
-date: 2023-08-13
-authors: [tabdulazeez]
-description: >
-  Optimize models using Automatic Model Tuning
-categories:
-  - Machine Learning
----
 
-# Optimize models using Automatic Model Tuning
+
+## Optimize models using Automatic Model Tuning
 
 ### Introduction
 
