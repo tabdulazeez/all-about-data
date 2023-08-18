@@ -10,6 +10,8 @@ categories:
 # Atmospheric Correction
 The package we will be using is `library(RStoolbox)`. Free and open source.
 
+<!-- more -->
+
  Read the meta 
 ```R
 meta2011 = readMeta('LT05_L1TP_130045_20060424_20161122_01_T1_MTL.txt')

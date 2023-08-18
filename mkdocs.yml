@@ -54,7 +54,9 @@ plugins:
        auto_caption: false
        caption_position: bottom
 
-  - blog
+  - blog:
+      post_date_format: full
+      archive_toc: true 
 
 
   - search:
