@@ -2,12 +2,12 @@
 date: 2023-08-13
 authors: [tabdulazeez]
 description: >
-    Atmospheric Correction
+    Landsat Atmospheric Correction
 categories:
   - Remote Sensing 
 ---
 
-# Atmospheric Correction
+# Landsat Atmospheric Correction
 The package we will be using is `library(RStoolbox)`. Free and open source.
 
 <!-- more -->
