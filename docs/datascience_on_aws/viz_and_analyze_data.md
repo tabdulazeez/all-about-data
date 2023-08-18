@@ -4,27 +4,7 @@
 
 In this lab you will ingest and transform the customer product reviews dataset. Then you will use AWS data stack services such as AWS Glue and Amazon Athena for ingesting and querying the dataset. Finally you will use AWS Data Wrangler to analyze the dataset and plot some visuals extracting insights.
 
-### Table of Contents
 
-- [1. Ingest and transform the public dataset](#c1w1-1.)
-  - [1.1. List the dataset files in the public S3 bucket](#c1w1-1.1.)
-    - [Exercise 1](#c1w1-ex-1)
-  - [1.2. Copy the data locally to the notebook](#c1w1-1.2.)
-  - [1.3. Transform the data](#c1w1-1.3.)
-  - [1.4 Write the data to a CSV file](#c1w1-1.4.)
-- [2. Register the public dataset for querying and visualizing](#c1w1-2.)
-  - [2.1. Register S3 dataset files as a table for querying](#c1w1-2.1.)
-    - [Exercise 2](#c1w1-ex-2)
-  - [2.2. Create default S3 bucket for Amazon Athena](#c1w1-2.2.)
-- [3. Visualize data](#c1w1-3.)
-  - [3.1. Preparation for data visualization](#c1w1-3.1.)
-  - [3.2. How many reviews per sentiment?](#c1w1-3.2.)
-    - [Exercise 3](#c1w1-ex-3)
-  - [3.3. Which product categories are highest rated by average sentiment?](#c1w1-3.3.)
-  - [3.4. Which product categories have the most reviews?](#c1w1-3.4.)
-    - [Exercise 4](#c1w1-ex-4)
-  - [3.5. What is the breakdown of sentiments per product category?](#c1w1-3.5.)
-  - [3.6. Analyze the distribution of review word counts](#c1w1-3.6.)
 
 Let's install the required modules first.
 

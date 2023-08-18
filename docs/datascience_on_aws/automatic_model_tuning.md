@@ -6,27 +6,7 @@
 
 When training ML models, hyperparameter tuning is a step taken to find the best performing training model. In this lab you will apply a random algorithm of Automated Hyperparameter Tuning to train a BERT-based natural language processing (NLP) classifier. The model analyzes customer feedback and classifies the messages into positive (1), neutral (0), and negative (-1) sentiments.
 
-### Table of Contents
 
-- [1. Configure dataset and Hyperparameter Tuning Job (HTP)](#c3w1-1.)
-  - [1.1. Configure dataset](#c3w1-1.1.)
-    - [Exercise 1](#c3w1-ex-1)
-  - [1.2. Configure Hyperparameter Tuning Job](#c3w1-1.2.)
-  - [1.3. Set up evaluation metrics](#c3w1-1.3.)
-- [2. Run tuning job](#c3w1-2.)
-  - [2.1. Set up the RoBERTa and PyTorch script to run on SageMaker](#c3w1-2.1.)
-  - [2.2. Launch the Hyperparameter Tuning Job](#c3w1-2.2.)
-    - [Exercise 2](#c3w1-ex-2)
-    - [Exercise 3](#c3w1-ex-3)
-  - [2.3. Check Tuning Job status](#c3w1-2.3.)
-- [3. Evaluate the results](#c3w1-3.)
-  - [3.1. Show the best candidate](#c3w1-3.1.)
-    - [Exercise 4](#c3w1-ex-4)
-  - [3.2. Evaluate the best candidate](#c3w1-3.2.)
-    - [Exercise 5](#c3w1-ex-5)
-    - [Exercise 6](#c3w1-ex-6)
-    - [Exercise 7](#c3w1-ex-7)
-  - [3.3. Inspect the processed output data](#c3w1-3.3.)
 
 Amazon SageMaker supports Automated Hyperparameter Tuning. It runs multiple training jobs on the training dataset using the hyperparameter ranges specified by the user. Then it chooses the combination of hyperparameters that leads to the best model candidate. The choice is made based on the objective metrics, e.g. maximization of the validation accuracy. 
 

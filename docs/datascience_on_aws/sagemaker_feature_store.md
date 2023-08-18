@@ -6,23 +6,6 @@ In this lab you will start with the raw [Women's Clothing Reviews](https://www.k
 
 You will convert the original review text into machine-readable features used by BERT. To perform the required feature transformation you will configure an Amazon SageMaker processing job, which will be running a custom Python script.
 
-### Table of Contents
-
-- [1. Configure the SageMaker Feature Store](#c2w1-1.)
-  - [1.1. Configure dataset](#c2w1-1.1.)
-  - [1.2. Configure the SageMaker feature store](#c2w1-1.2.)
-    - [Exercise 1](#c2w1-ex-1)
-- [2. Transform the dataset](#c2w1-2.)
-    - [Exercise 2](#c2w1-ex-2)
-    - [Exercise 3](#c2w1-ex-3)
-- [3. Query the Feature Store](#c2w1-3.)
-  - [3.1. Export training, validation, and test datasets from the Feature Store](#c2w1-3.1.)
-    - [Exercise 4](#c2w1-ex-4)
-  - [3.2. Export TSV from Feature Store](#c2w1-3.2.)
-  - [3.3. Check that the dataset in the Feature Store is balanced by sentiment](#c2w1-3.3.)
-    - [Exercise 5](#c2w1-ex-5)
-    - [Exercise 6](#c2w1-ex-6)
-    - [Exercise 7](#c2w1-ex-7)
 
 
 

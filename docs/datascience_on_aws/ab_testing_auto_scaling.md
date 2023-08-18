@@ -6,26 +6,6 @@
 
 In this lab you will create an endpoint with multiple variants, splitting the traffic between them. Then after testing and reviewing the endpoint performance metrics, you will shift the traffic to one variant and configure it to autoscale.
 
-### Table of Contents
-
-- [1. Create an endpoint with multiple variants](#c3w2-1.)
-  - [1.1. Construct Docker Image URI](#c3w2-1.1.)
-    - [Exercise 1](#c3w2-ex-1)
-  - [1.2. Create Amazon SageMaker Models](#c3w2-1.2.)
-    - [Exercise 2](#c3w2-ex-2)
-    - [Exercise 3](#c3w2-ex-3)
-  - [1.3. Set up Amazon SageMaker production variants](#c3w2-1.3.)
-    - [Exercise 4](#c3w2-ex-4)
-    - [Exercise 5](#c3w2-ex-5)
-  - [1.4. Configure and create endpoint](#c3w2-1.4.)
-    - [Exercise 6](#c3w2-ex-6)
-- [2. Test model](#c3w2-2.)
-  - [2.1. Test the model on a few sample strings](#c3w2-2.1.)
-    - [Exercise 7](#c3w2-ex-7)
-  - [2.2. Generate traffic and review the endpoint performance metrics](#c3w2-2.2.)
-- [3. Shift the traffic to one variant and review the endpoint performance metrics](#c3w2-3.)
-  - [Exercise 8](#c3w2-ex-8)
-- [4. Configure one variant to autoscale](#c3w2-4.)
 
 Let's install and import the required modules.
 
