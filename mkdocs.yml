@@ -12,6 +12,13 @@ theme:
     - content.action.view
     - content.code.copy
     - navigation.footer
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+
 
   icon:
     repo: fontawesome/brands/git-alt 
@@ -85,7 +92,7 @@ copyright: Copyright &copy; 2023  Tajudeen Abdulazeez
 
 nav:
   - Home: index.md 
-  - Data Science on AWS: 
+  - Data Science On AWS: 
     - Register, Analyze and Visualize Data: datascience_on_aws/viz_and_analyze_data.md
     - Detect data bias with Amazon SageMaker Clarify: datascience_on_aws/detect_bias_amazon_sagemaker_clarify.md
     - Train a model with Amazon SageMaker Autopilot: datascience_on_aws/sagemaker_autopilot.md
