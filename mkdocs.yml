@@ -91,7 +91,13 @@ copyright: Copyright &copy; 2023  Tajudeen Abdulazeez
 
 
 nav:
-  - Home: index.md 
+  - Home: 
+    - All About Data: index.md 
+    - Credentials: 'https://credentials.getdbt.com/profile/tajudeenabdulazeez494685/wallet'
+    - Portfolio: '#'
+    - Youtube: '#'
+    
+    
   - Data Science On AWS: 
     - Register, Analyze and Visualize Data: datascience_on_aws/viz_and_analyze_data.md
     - Detect data bias with Amazon SageMaker Clarify: datascience_on_aws/detect_bias_amazon_sagemaker_clarify.md

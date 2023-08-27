@@ -1,4 +1,4 @@
-
+# All About Data
 Welcome to our cutting-edge data blog, your go-to resource for all things related to the intricate world of data. From the foundational concepts of data science and data engineering to the complexities of databases, data pipelines, and data analytics, we're here to unravel the mysteries that data holds.
 
 Embark on a journey with us as we explore the ever-evolving landscape of data technologies, leveraging the power of serverless computing, Docker, Kubernetes, Airflow, and the vast capabilities of cloud platforms like AWS and GCP. Our blog is a gateway to understanding how these tools revolutionize the way data is managed, processed, and transformed into invaluable insights.
@@ -13,4 +13,4 @@ Whether you're an industry expert seeking to stay ahead of the curve or a curiou
 
 
 
-[More about me](aboutme.md){ .md-button }       [Credentials](https://credentials.getdbt.com/profile/tajudeenabdulazeez494685/wallet){ .md-button target=_blank } [Portfolio](#){ .md-button }  [Youtube](#){ .md-button }  
+[More about me](aboutme.md){ .md-button }      
