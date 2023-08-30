@@ -98,7 +98,10 @@ nav:
     - Credentials: credentials.md 
     - Portfolio: '#'
     - Youtube: '#'
-    - Data Warehouse Docs: datawarehouse.md 
+    
+  - Data Warehouse: 
+    - FudgeCorps: datawarehouse.md 
+    - DBT Docs: datawarehouse/index.html 
     
     
   - Data Science On AWS: 
