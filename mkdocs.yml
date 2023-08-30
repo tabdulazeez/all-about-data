@@ -95,10 +95,10 @@ copyright: Copyright &copy; 2023  Tajudeen Abdulazeez
 nav:
   - Home: 
     - All About Data: index.md 
-    - Credentials: 'https://credentials.getdbt.com/profile/tajudeenabdulazeez494685/wallet'
+    - Credentials: credentials.md 
     - Portfolio: '#'
     - Youtube: '#'
-    - Data Warehouse Docs: datawarehouse/index.html
+    - Data Warehouse Docs: datawarehouse.md 
     
     
   - Data Science On AWS: 
