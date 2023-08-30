@@ -101,7 +101,7 @@ nav:
     
   - Data Warehouse: 
     - FudgeCorps: datawarehouse.md 
-    - DBT Docs: datawarehouse/index.html 
+    - DBT Docs: data_warehouse/index.html
     
     
   - Data Science On AWS: 
