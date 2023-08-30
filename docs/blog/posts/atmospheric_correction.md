@@ -13,6 +13,8 @@ In the realm of remote sensing and geospatial analysis, Landsat imagery plays a 
 <!-- more -->
 
 ## Getting Started with RStoolbox
+RStoolbox is a R package providing a wide range of tools for your every-day remote sensing processing needs. The available toolset covers many aspects from data import, pre-processing, data analysis, image classification and graphical display. RStoolbox builds upon the raster package, which makes it suitable for processing large data-sets even on smaller workstations.
+
 To embark on this journey, we'll harness the capabilities of the RStoolbox package. This versatile tool is designed to facilitate the atmospheric correction of Landsat imagery, ensuring that the data we work with is both accurate and reliable.
 
 Let's delve into the step-by-step process of atmospheric correction using the RStoolbox package.
