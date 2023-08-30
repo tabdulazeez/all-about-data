@@ -98,6 +98,7 @@ nav:
     - Credentials: 'https://credentials.getdbt.com/profile/tajudeenabdulazeez494685/wallet'
     - Portfolio: '#'
     - Youtube: '#'
+    - Data Warehouse Docs: datawarehouse/index.html
     
     
   - Data Science On AWS: 
