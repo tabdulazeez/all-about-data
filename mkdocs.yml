@@ -25,6 +25,8 @@ theme:
     edit: material/pencil 
     view: material/eye
 
+  logo: assets/logo.jpeg 
+
   palette: 
 
     # Palette toggle for dark mode
