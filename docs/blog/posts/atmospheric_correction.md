@@ -2,70 +2,87 @@
 date: 2023-08-13
 authors: [tabdulazeez]
 description: >
-    Landsat Atmospheric Correction Using R
+    Unveiling the Power of Landsat Atmospheric Correction Using R
 categories:
   - Remote Sensing 
 ---
 
-# Landsat Atmospheric Correction Using R 
-The package we will be using is `library(RStoolbox)`. Free and open source.
+# Unveiling the Power of Landsat Atmospheric Correction Using R
+In the realm of remote sensing and geospatial analysis, Landsat imagery plays a pivotal role in understanding and monitoring Earth's surface. However, to extract accurate information from these images, it's crucial to apply proper atmospheric correction techniques. In this blog post, we'll dive into the process of atmospheric correction using the R programming language and the RStoolbox package. Best of all, this package is both free and open source, making it accessible to all.
 
 <!-- more -->
 
-Read the meta 
+## Getting Started with RStoolbox
+To embark on this journey, we'll harness the capabilities of the RStoolbox package. This versatile tool is designed to facilitate the atmospheric correction of Landsat imagery, ensuring that the data we work with is both accurate and reliable.
+
+Let's delve into the step-by-step process of atmospheric correction using the RStoolbox package.
+
+### Step 1: Reading Metadata
+The first step involves reading the metadata associated with a Landsat image. The readMeta() function allows us to extract essential information from the metadata file. Let's take a peek at how this is done:
+
 ```R
+# Read metadata for Landsat image
 meta2011 = readMeta('LT05_L1TP_130045_20060424_20161122_01_T1_MTL.txt')
 summary(meta2011)
 
 ```
 
-Stack individual landsat bands in a stack
+### Step 2: Stacking Landsat Bands
+After acquiring the metadata, it's time to stack individual Landsat bands together. This consolidated stack forms the foundation for subsequent calculations. Here's how it's done:
+
 ```R
-p22_2011 = stackMeta(meta2011) # stack individual landsat bands in a stack
-
-dn2_rad=meta2011$CALRAD # extract offset gain data
-
-dn2_rad
-
+# Stack individual Landsat bands
+p22_2011 = stackMeta(meta2011)
+dn2_rad = meta2011$CALRAD # Extract offset gain data
 
 ```
 
-Convert dn to top of the atmospheric radiant
-```R
-p22_2011_rad= radCor(p22_2011,metaData = meta2011, method = 'rad')
-p22_2011_rad
-
-
-```
-
-
-Top of atmosphere reflectance (Obtain TOA)
+### Step 3: Conversion to Radiant Values
+Now, we move on to converting the digital numbers (DN) to top-of-the-atmosphere radiance. This process is crucial for ensuring that the data accurately represents the radiance values received from the Earth's surface:
 
 ```R 
+# Convert DN to radiance
+p22_2011_rad = radCor(p22_2011, metaData = meta2011, method = 'rad')
+
+```
+
+### Step 4: Top of Atmosphere Reflectance
+To obtain top-of-atmosphere (TOA) reflectance values, we proceed with additional atmospheric correction:
+
+```R 
+# Calculate TOA reflectance
 p22_2011_ref = radCor(p22_2011, metaData = meta2011, method = 'apref')
-p22_2011_ref
 
 ```
 
-Haze correction
-
-```R 
-haze = estimateHaze(p22_2011,darkProp = 0.01, hazeBands = c("B1_dn", "B2_dn","B3_dn","B4_dn"))
-haze
-
-```
-
-Dark object extraction ( DOS )
+### Step 5: Haze Correction
+Haze can significantly impact the accuracy of remote sensing data. With the RStoolbox package, we can estimate and correct for haze:
 
 ```R
-p22_2011_dos = radCor(p22_2011, metaData = meta2011,darkProp = 0.01, method = 'dos')
-p22_2011_dos 
+# Estimate and correct for haze
+haze = estimateHaze(p22_2011, darkProp = 0.01, hazeBands = c("B1_dn", "B2_dn", "B3_dn", "B4_dn"))
 
 ```
 
- CALCULATE NDVI
+### Step 6: Dark Object Extraction (DOS)
+The Dark Object Subtraction (DOS) technique helps remove atmospheric effects caused by dark objects in the scene:
 
 ```R
+# Apply Dark Object Subtraction (DOS)
+p22_2011_dos = radCor(p22_2011, metaData = meta2011, darkProp = 0.01, method = 'dos')
+
+```
+
+### Step 7: Calculate NDVI
+Finally, we can calculate the Normalized Difference Vegetation Index (NDVI) – a crucial metric for vegetation analysis – using the spectral indices function:
+
+```R
+# Calculate NDVI
 ndvi = spectralIndices(p22_2011, red = "B3_dn", nir = 'B4_dn', indices = 'NDVI')
-
 ```
+
+
+## Conclusion
+And there you have it! By employing the RStoolbox package, we've journeyed through the intricate process of atmospheric correction for Landsat imagery. Each step contributes to transforming raw data into meaningful and accurate information, paving the way for a wide range of geospatial analyses and applications. The power of open source tools like RStoolbox empowers us to explore, analyze, and interpret our world with precision.
+
+
