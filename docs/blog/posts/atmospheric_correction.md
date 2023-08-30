@@ -19,7 +19,14 @@ To embark on this journey, we'll harness the capabilities of the RStoolbox packa
 
 Let's delve into the step-by-step process of atmospheric correction using the RStoolbox package.
 
-### Step 1: Reading Metadata
+### Step 1: Installing RStoolbox
+RStoolbox is now available from CRAN and can be installed as usual with
+
+```R
+install.packages("RStoolbox")
+```
+
+### Step 2: Reading Metadata
 The first step involves reading the metadata associated with a Landsat image. The readMeta() function allows us to extract essential information from the metadata file. Let's take a peek at how this is done:
 
 ```R
@@ -29,7 +36,7 @@ summary(meta2011)
 
 ```
 
-### Step 2: Stacking Landsat Bands
+### Step 3: Stacking Landsat Bands
 After acquiring the metadata, it's time to stack individual Landsat bands together. This consolidated stack forms the foundation for subsequent calculations. Here's how it's done:
 
 ```R
@@ -39,7 +46,7 @@ dn2_rad = meta2011$CALRAD # Extract offset gain data
 
 ```
 
-### Step 3: Conversion to Radiant Values
+### Step 4: Conversion to Radiant Values
 Now, we move on to converting the digital numbers (DN) to top-of-the-atmosphere radiance. This process is crucial for ensuring that the data accurately represents the radiance values received from the Earth's surface:
 
 ```R 
@@ -48,7 +55,7 @@ p22_2011_rad = radCor(p22_2011, metaData = meta2011, method = 'rad')
 
 ```
 
-### Step 4: Top of Atmosphere Reflectance
+### Step 5: Top of Atmosphere Reflectance
 To obtain top-of-atmosphere (TOA) reflectance values, we proceed with additional atmospheric correction:
 
 ```R 
@@ -57,7 +64,7 @@ p22_2011_ref = radCor(p22_2011, metaData = meta2011, method = 'apref')
 
 ```
 
-### Step 5: Haze Correction
+### Step 6: Haze Correction
 Haze can significantly impact the accuracy of remote sensing data. With the RStoolbox package, we can estimate and correct for haze:
 
 ```R
@@ -66,7 +73,7 @@ haze = estimateHaze(p22_2011, darkProp = 0.01, hazeBands = c("B1_dn", "B2_dn", "
 
 ```
 
-### Step 6: Dark Object Extraction (DOS)
+### Step 7: Dark Object Extraction (DOS)
 The Dark Object Subtraction (DOS) technique helps remove atmospheric effects caused by dark objects in the scene:
 
 ```R
@@ -75,7 +82,7 @@ p22_2011_dos = radCor(p22_2011, metaData = meta2011, darkProp = 0.01, method = '
 
 ```
 
-### Step 7: Calculate NDVI
+### Step 8: Calculate NDVI
 Finally, we can calculate the Normalized Difference Vegetation Index (NDVI) – a crucial metric for vegetation analysis – using the spectral indices function:
 
 ```R
