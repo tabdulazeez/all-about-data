@@ -4,7 +4,7 @@ authors: [tabdulazeez]
 description: >
     Evidence-Based Investment Using  Monte Carlo Simulations
 categories:
-  - Machine Learning
+  - Data Science
 ---
 
 #  Evidence-Based Investment Using  Monte Carlo Simulations
@@ -134,6 +134,8 @@ for p in range(len(p_tiles)):
 ## Empowering Investment Decisions
 Monte Carlo Simulations are a valuable tool for evidence-based investment decision-making. By simulating a wide range of scenarios and analyzing potential outcomes, investors can gain a better understanding of the risks and rewards associated with different investment strategies. Remember that the key to successful investing lies in staying informed, being adaptable, and leveraging data-driven insights to make the best decisions for your financial future.
 
+
+## Colab
 
 <a href="https://colab.research.google.com/github/toraaglobal/Case_Studies/blob/master/EvidenceBasedInvesting.ipynb" target="_blank">Open Source Code In Colab </a>
 
