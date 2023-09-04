@@ -11,6 +11,7 @@ categories:
 
 Topic modeling is a powerful technique in natural language processing (NLP) that helps us discover the underlying themes or topics within a collection of texts. In this blog post, we will explore the application of Latent Dirichlet Allocation (LDA) topic modeling to analyze the floor debates of the 110th Congress, focusing exclusively on the House of Representatives. The dataset is divided into subfolders, with "m" representing male speakers, "f" for female speakers, "d" for Democrats, and "r" for Republicans. Let's dive into the process of topic modeling and uncover the main themes of these congressional debates.
 
+<!-- more -->
 
 ## The Tools and Libraries
 
