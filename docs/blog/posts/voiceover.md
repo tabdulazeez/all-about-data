@@ -11,6 +11,8 @@ categories:
 
 In today's digital age, adding a personal touch to your projects can make a significant difference in user engagement and accessibility. One creative way to achieve this is by incorporating voiceovers into your applications, websites, or multimedia presentations. In this blog post, we'll explore a Python script that utilizes the pyttsx3 library to generate voiceovers from text. We'll walk through the code and discuss how you can enhance your projects with voiceovers.
 
+<!-- more -->
+
 ## The Power of Voiceovers
 Voiceovers can provide numerous benefits to your projects:
 
