@@ -1,6 +1,6 @@
 ## About me 
 
-![](https://media.licdn.com/dms/image/C5603AQHzeq9RbvNwcA/profile-displayphoto-shrink_400_400/0/1639168460972?e=1697673600&v=beta&t=dobekhibbcm3SLgXo5amsTTPu--Oxp_S_1Llzs8XHd8)          |   Tajudeen Abdulazeez is a versatile professional with a background in Geo-science and a Master's degree in Applied Data Science. Certified Google Professional Data Engineer with expertise in building end-to-end data science solutions. He leverage skills like Airflow, Python, R, AWS, Docker,Big Query, Dataflow,DBT,Redshift, Github Actions,Kubernetes,Kafka, e.t.c  to automate data pipelines. With a commitment to continuous learning, he bridge his analytical insights with data-driven acumen, embodying the synergy between evolving technology and diverse expertise.
+![](https://media.licdn.com/dms/image/C5603AQHzeq9RbvNwcA/profile-displayphoto-shrink_400_400/0/1639168460972?e=1697673600&v=beta&t=dobekhibbcm3SLgXo5amsTTPu--Oxp_S_1Llzs8XHd8)          |   Tajudeen Abdulazeez is a versatile professional with a background in Geo-science and a Master's degree in Applied Data Science. Certified Google Professional Data Engineer with expertise in building end-to-end data science solutions. With a commitment to continuous learning, he bridge his analytical insights with data-driven acumen, embodying the synergy between evolving technology and diverse expertise.
 :-------------------------:|:-------------------------:
 
 
