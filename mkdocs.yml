@@ -30,9 +30,9 @@ theme:
   logo: assets/logo.jpeg 
 
   palette: 
-
     # Palette toggle for dark mode
     - scheme: slate
+      primary: light blue
       media: "(prefers-color-scheme: dark)"
       toggle:
         icon: material/brightness-4
@@ -40,6 +40,7 @@ theme:
 
     # Palette toggle for light mode
     - scheme: default
+      primary: light blue
       media: "(prefers-color-scheme: light)"
       toggle:
         icon: material/brightness-7 
@@ -99,7 +100,7 @@ nav:
     - All About Data: index.md 
     - Credentials: credentials.md 
     - Portfolio: '#'
-    - Youtube: '#'
+    - Youtube: 'https://www.youtube.com/@DataCraftMasters/about'
     
   - Data Warehouse: 
     - FudgeCorps: datawarehouse.md 
