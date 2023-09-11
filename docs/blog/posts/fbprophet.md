@@ -11,6 +11,8 @@ categories:
 # Building Scalable Time Series Models with Facebook Prophet
 In the ever-evolving world of data science and forecasting, having a reliable tool that can quickly generate high-quality forecasts at scale is crucial. One such tool that has gained popularity in recent years is Facebook Prophet. In this blog post, we'll explore how Prophet can be used to build time series models for forecasting and dive into the process of preparing and analyzing time series data. We'll also provide a link to a Colab notebook for hands-on experience.
 
+<!-- more -->
+
 **Installing Prophet**
 
 Before we dive into the details, make sure you have Prophet installed. You can install it using pip:
