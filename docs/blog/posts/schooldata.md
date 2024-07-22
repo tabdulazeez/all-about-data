@@ -10,6 +10,7 @@ categories:
 
 # Uncovering School Performance Patterns: A Comprehensive Data Analysis
 Exploring educational data can provide deep insights into student performance and school effectiveness. In this blog post, I will guide you through a detailed analysis of a school dataset, explaining each step and the insights we gain from the data. This comprehensive analysis will help in understanding the distribution of student performance across different schools and identifying key areas for improvement.
+
 <!-- more -->
 
 ## Reading and Exploring the Dataset
